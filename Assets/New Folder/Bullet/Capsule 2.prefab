@@ -17,7 +17,6 @@ GameObject:
   - component: {fileID: 2642723173727128720}
   - component: {fileID: 7644429737456228168}
   - component: {fileID: 7014871678242017896}
-  - component: {fileID: -5597954129061771070}
   - component: {fileID: -611983575911654609}
   m_Layer: 0
   m_Name: Capsule 2
@@ -188,22 +187,6 @@ MonoBehaviour:
   space: {fileID: 2320572735646941940}
   force: {x: 0, y: 0, z: 30}
   ignoreMass: 1
---- !u!114 &-5597954129061771070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4828245164164830837}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 4543641031217722753}
-  key:
-    target: 0
-    key: destroy
 --- !u!114 &-611983575911654609
 MonoBehaviour:
   m_ObjectHideFlags: 0
