@@ -193,4 +193,4 @@ MonoBehaviour:
   item: {fileID: 1250352600862210303}
   key:
     target: 0
-    key: 
+    key: destroy
