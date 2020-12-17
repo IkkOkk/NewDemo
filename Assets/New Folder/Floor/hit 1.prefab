@@ -17,6 +17,9 @@ GameObject:
   - component: {fileID: 339136593441898621}
   - component: {fileID: -3241011527630989446}
   - component: {fileID: -3343180600239716136}
+  - component: {fileID: -1265134395190782211}
+  - component: {fileID: -3176206156217537507}
+  - component: {fileID: 2758471793982072321}
   m_Layer: 0
   m_Name: hit 1
   m_TagString: Untagged
@@ -192,3 +195,66 @@ MonoBehaviour:
   key:
     target: 0
     key: appear2
+--- !u!114 &-1265134395190782211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2528167016779697299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1250352600862210303}
+  key:
+    target: 0
+    key: hit2
+  itemTemplate: {fileID: 1250352600862210303, guid: c81643520dd664ceca06159de4d02464,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 7489604506164535510}
+--- !u!114 &-3176206156217537507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2528167016779697299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1250352600862210303}
+  key:
+    target: 0
+    key: hit3
+  itemTemplate: {fileID: 1250352600862210303, guid: a5502e6784a0f4d07bc9733877810662,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 7489604506164535510}
+--- !u!114 &2758471793982072321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2528167016779697299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1250352600862210303}
+  key:
+    target: 0
+    key: hit4
+  itemTemplate: {fileID: 1250352600862210303, guid: edcec9731a206421ca53285271aab9cf,
+    type: 3}
+  itemTemplateId:
+    value: 0
+  spawnPoint: {fileID: 7489604506164535510}

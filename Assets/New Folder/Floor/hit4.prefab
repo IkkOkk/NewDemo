@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: -1579019227580370986}
   - component: {fileID: 1574409428594061625}
   - component: {fileID: -2482646208922458412}
+  - component: {fileID: 2839768503369865976}
   m_Layer: 0
   m_Name: hit4
   m_TagString: Untagged
@@ -194,3 +195,17 @@ MonoBehaviour:
   key:
     target: 0
     key: destroy
+--- !u!64 &2839768503369865976
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2528167016779697299}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
